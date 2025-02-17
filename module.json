@@ -1,0 +1,33 @@
+{
+  "id": "mappa-tilea",
+  "title": "Mappa Tilea",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "tilea",
+      "label": "Tilea",
+      "path": "packs/tilea",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e"
+    },
+    {
+      "name": "mappa-tilea",
+      "label": "Mappa Tilea",
+      "path": "packs/mappa-tilea",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e"
+    }
+  ]
+}
