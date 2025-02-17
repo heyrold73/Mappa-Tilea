@@ -1,36 +1,44 @@
 {
   "id": "mappa-tilea",
-  "title": "Mappa Tilea",
+  "title": "mappa tilea",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
+  "description": "Mappa della Tilea con le Annotazioni",
+  "authors": [
+    {
+      "name": "Author 1",
+      "discord": "Heyrold#4406",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/heyrold73/mappa-tilea/releases/latest/download/module.json",
   "packs": [
     {
-      "name": "tilea",
-      "label": "Tilea",
-      "path": "packs/tilea",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "wfrp4e"
-    },
-    {
       "name": "mappa-tilea",
-      "label": "Mappa Tilea",
+      "label": "mappa tilea",
       "path": "packs/mappa-tilea",
       "type": "Scene",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "wfrp4e"
+      "system": "wfrp4e",
+      "flags": {}
+    },
+    {
+      "name": "tilea",
+      "label": "tilea",
+      "path": "packs/tilea",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "wfrp4e",
+      "flags": {}
     }
-  ],
-  "url": "https://github.com/heyrold73/Mappa-Tilea",
-  "manifest": "https://github.com/heyrold73/Mappa-Tilea/releases/latest/download/module.json",
-  "download": "https://github.com/heyrold73/Mappa-Tilea/releases/latest/download/module.zip"
+  ]
 }
